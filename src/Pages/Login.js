@@ -21,11 +21,11 @@ const Login = () => {
       setShowMessage(true);
       hideMessage();
     } else if (email !== user.email) {
-      setMessage("Email does not exist");
+      setMessage("Wrong Credentials");
       setShowMessage(true);
       hideMessage();
     } else if (password !== user.password) {
-      setMessage("Wrong Password");
+      setMessage("Wrong Credentials");
       setShowMessage(true);
       hideMessage();
     } else {
